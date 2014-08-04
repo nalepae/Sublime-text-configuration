@@ -1,9 +1,8 @@
 Sublime-text-configuration
 ==========================
+This repository contains all my prefered Sublime Text 2 Configuration for itself and for my prefered packages.
 
 In this document, each time it is written : _Open Command Palette_, you can open it in menu _Tool/Command Palette_ or with the shortcut _Shift+Ctrl+P_ on Linux.
-
-This repository contains all my prefered Sublime Text 2 Configuration for itself and for my prefered packages.
 
 ###Sublime Text Preference Settings###
 
@@ -16,7 +15,7 @@ You can find it [here](https://sublime.wbond.net/installation#st2).
 In the end of this document, when you modify a package setting or key binding, never modify the _Default_ file but always the _User_ file. (But read the _Default_ file to find the inspiration !)
 
 ###Package _Alignment_###
-This package is usefull to tranform in one shortcut differents lines on the same character (by default : "_=_").
+This package is usefull to align in one shortcut differents lines on the same character (by default : "_=_").
 * *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _Alignment_.
 * *How to use it* : Select the text you want to align, then press the default shortcup _ctrl+alt+a_ on Linux.
 You can modify the shortcut in _Preferences/Package Settings/Alignment/Key Bindings_.
