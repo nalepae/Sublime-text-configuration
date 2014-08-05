@@ -28,3 +28,24 @@ This package highlights brackets. It is usefull when you have several nested bra
 * *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _BracketHighlighter_.
 * *How to use it* : There is nothing special to do, just click on a bracket and all the corresponding brackets will be highlighted.
 
+###Package _GitGutter_###
+This package is usefull to see which lines are modified when you work in a GIT repository without always writting _git status_ or others command lines.
+* *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _GitGutter_.
+* *How to use it* : There is nothing special to do, just work in a GIT repository.
+
+###Package _Pylinter_###
+This package is usefull to quickly see if you'r Python code is compliant with the PEP8 standart.
+* *Before installing it* : You have to install _Pylint_ (the software which check the compliance of your code with the PEP8 standard). To install it, if you are using Linux, just write _pip install pylint --user_. If _pip_ is not installed on your computer, go [here](http://pip.readthedocs.org/en/latest/installing.html).
+* * *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _Pylinter_.
+* *How to use it* : There is nothing special to do, just write python code.
+
+My personal preference file for this package is the file _Pylinter.sublime-settings_.
+
+###Package _Python PEP8 Autoformat_###
+This package is usefull to autoformat your code as far as the PEP8 standard is concerned. Very usefull !
+* *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _Python PEP8 Autoformat_.
+* *How to use it* : The default shortcut to autoformat your code is : _ctrl+shift+r_.
+
+My personal preference file for this package is the file _pep8autoformat.sublime-settings_. (Main change : Autoformat when saving the document.)
+
+
