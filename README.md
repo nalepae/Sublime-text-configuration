@@ -35,7 +35,7 @@ This package is usefull to see which lines are modified when you work in a GIT r
 
 ###Package _Pylinter_###
 This package is usefull to quickly see if you'r Python code is compliant with the PEP8 standart.
-* *Before installing it* : You have to install _Pylint_ (the software which check the compliance of your code with the PEP8 standard). To install it, if you are using Linux, just write _pip install pylint --user_. If _pip_ is not installed on your computer, go [here](http://pip.readthedocs.org/en/latest/installing.html).
+* *Before installing it* : You have to install _Pylint_ (the software which check the compliance of your code with the PEP8 standard). To install it, if you are using Linux, just write _sudo apt-get install pylint_. For an murky reason, this package doesn't work if _Pylint_ is installed via a _pip_ command.
 * * *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _Pylinter_.
 * *How to use it* : There is nothing special to do, just write python code.
 
