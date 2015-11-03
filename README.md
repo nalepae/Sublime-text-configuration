@@ -48,7 +48,7 @@ This package is usefull to autoformat your code as far as the PEP8 standard is c
 
 My personal preference file for this package is the file _pep8autoformat.sublime-settings_. (Main change : Autoformat when saving the document.)
 
-###Package _Sublime Code Intel_###
+###Package _Jedi_###
 This package is useful to do auto-completion and other very useful stuff that every IDE has to have!
 * *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _Jedi - Python autocompletion_.
 * *How to use it* : Nothing special to do : Just code !
