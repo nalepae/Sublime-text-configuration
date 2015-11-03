@@ -19,6 +19,6 @@
     "ignore": [],
 
     // a list of strings of individual errors to disable, ex: ["C0301"]
-    "disable": ["E1101", "F0401", "W0621"],
+    "disable": [],
     "plugins": []
 }
