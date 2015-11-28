@@ -24,7 +24,7 @@
     // Columns in which to display vertical rulers
 	"rulers":
 	[
-		79
+		80
 	],
 
     // Set to true to insert spaces when tab is pressed
