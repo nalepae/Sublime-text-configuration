@@ -1,4 +1,8 @@
+
 {
-	// autoformat code on save ?
-	"autoformat_on_save": true
+    // autoformat code on save ?
+    "autoformat_on_save": true,
+
+    // Maximum line length
+    "max-line-length": 80
 }
