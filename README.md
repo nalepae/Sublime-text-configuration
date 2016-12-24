@@ -33,6 +33,20 @@ This package is usefull to see which lines are modified when you work in a GIT r
 * *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _GitGutter_.
 * *How to use it* : There is nothing special to do, just work in a GIT repository.
 
+If you use Sublime Text 3:
+==========================
+
+###Package _Anaconda_###
+This package transforms Sublime Text 3 in a complete Python IDE!
+* *How to install it* : Open Command Palette, then select _Package Control: Install Package_, then select _Anaconda_.
+* *How to use it* : Nothing special to do : Just code ! You could see informations about this package [here] (http://damnwidget.github.io/anaconda/).
+
+My personal preference file for this package is the file _Anaconda.sublime-settings_.
+
+
+If you use Sublime Text 2:
+==========================
+
 ###Package _Pylinter_###
 This package is usefull to quickly see if you'r Python code is compliant with the PEP8 standart.
 * *Before installing it* : You have to install _Pylint_ (the software which check the compliance of your code with the PEP8 standard). To install it, if you are using Linux, just write _sudo apt-get install pylint_. For an murky reason, this package doesn't work if _Pylint_ is installed via a _pip_ command.
