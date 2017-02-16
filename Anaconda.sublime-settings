@@ -8,7 +8,6 @@
     /*
         If complete_parameters is true, anaconda will add function and class
         parameters to its completions.
-
         If complete_all_parameters is true, it will add all the possible
         parameters, if it's false, it will add only required parameters
     */
@@ -17,10 +16,8 @@
 
     /*
         Autoformat files on save
-
         This option is disabled by default, AutoPEP8 is really slow and it get
         the file buffer read only while its working in the background.
-
         Use this at your own risk.
     */
     "auto_formatting": true,
@@ -30,10 +27,8 @@
     "anaconda_linter_persistent": true,
 
     /*
-
         If anaconda_gutter_marks is true, this determines what theme is used.
         Theme 'basic' only adds dots and circles to gutter.
-
         Other available themes are 'alpha', 'bright', 'dark', 'hard', "retina"
         (for retina displays) and 'simple'. To see icons that will be used for
         each theme check gutter_icon_themes folder in Anaconda package.
@@ -50,13 +45,25 @@
     */
     "anaconda_linter_mark_style": "solid_underline",
 
+    /*
+        Use PyLint instead of PyFlakes and PEP-8
+
+        **** WARNING ****
+
+        - If you set this value as true, PyFlakes and pep8 will not be used.
+        - PyLint does *NOT* support linting buffers that are not already saved in
+          the file system.
+
+        **** WARNING ****
+    */
+    "use_pylint": true,
+
     // Set this to true to turn pep257 checking on.
     "pep257": true,
 
     /*
         Set the following option to true if you want anaconda to check
         the validity of your imports when the linting process is fired.
-
         WARNING: take into account that anaconda compiles and import the
         modules in the JsonServer memory segment in order to check this
     */
